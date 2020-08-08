@@ -1,4 +1,4 @@
-html, 
+html,
 body {
 	padding: 0;
 	margin: 0;
@@ -8,9 +8,32 @@ body {
 	color: rgba(--var(--color-1));
 	transition: 0.5s ease-out;
 }
+
 body,
 body * {
 	font-family: Century Gothic;
-	font-family: Raleway;
+	font-family: Quicksand;
 	transition: 0.5s ease-out;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid rgba(var(--color-1), 0.8);
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.text-align-center {
+	text-align: center;
 }
