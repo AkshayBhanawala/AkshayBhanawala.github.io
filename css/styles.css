@@ -1,0 +1,110 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgba(5, 5, 5);
+	background-color: rgba(var(--color-bg-1));
+	color: rgba(235, 235, 235);
+	color: rgba(var(--color-1));
+	transition: 0.5s ease-out;
+}
+
+body,
+body * {
+	font-family: Century Gothic;
+	font-family: Quicksand;
+	transition: 0.5s ease-out;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid rgba(var(--color-1), 0.8);
+}
+
+.ProjectLinks {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ProjectLinks > .ProjectLink {
+	z-index: 1;
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 0px;
+	overflow: hidden;
+}
+
+.ProjectLinks > .ProjectLink a,
+.ProjectLinks > .ProjectLink a:visited {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: rgba(var(--color-1), 1);
+	mix-blend-mode: difference;
+}
+
+.ProjectLinks > .ProjectLink span {
+	z-index: -1;
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(2,170,176,1);
+	background: -moz-linear-gradient(left, rgba(2,170,176,1) 0%, rgba(0,205,171,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,170,176,1)), color-stop(100%, rgba(0,205,171,1)));
+	background: -webkit-linear-gradient(left, rgba(2,170,176,1) 0%, rgba(0,205,171,1) 100%);
+	background: -o-linear-gradient(left, rgba(2,170,176,1) 0%, rgba(0,205,171,1) 100%);
+	background: -ms-linear-gradient(left, rgba(2,170,176,1) 0%, rgba(0,205,171,1) 100%);
+	background: linear-gradient(to right, rgba(2,170,176,1) 0%, rgba(0,205,171,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02aab0', endColorstr='#00cdab', GradientType=1 );
+
+	animation-name: ProjectLink-BGSlide-out;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: both;
+}
+
+.ProjectLinks > .ProjectLink:hover span {
+	transition: 0s;
+	animation-name: ProjectLink-BGSlide-in;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: both;
+}
+
+@keyframes ProjectLink-BGSlide-in {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0%);
+	}
+}
+
+@keyframes ProjectLink-BGSlide-out {
+	to {
+		transform: translateX(100%);
+	}
+}
