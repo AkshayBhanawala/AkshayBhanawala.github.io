@@ -1,4 +1,2 @@
-# AkshayBhanawala.github.io
+# http://AkshayBhanawala.github.io
 WebApps
-
-AkshayBhanawala.github.io
