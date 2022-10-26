@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Programming Languages",
+		"skills": [
+			{
+				"name": "JavaScript",
+				"percentage": 80,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "TypeScript",
+				"percentage": 80,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "Java",
+				"percentage": 65,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "Python",
+				"percentage": 40,
+				"logo": "",
+				"isPersonal": true
+			},
+			{
+				"name": "C#",
+				"percentage": 30,
+				"logo": "",
+				"isPersonal": true
+			}
+		]
+	},
+	{
+		"name": "Frontend Frameworks",
+		"skills": [
+			{
+				"name": "Angular",
+				"percentage": 80,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "Vue",
+				"percentage": 75,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "React",
+				"percentage": 45,
+				"logo": "",
+				"isPersonal": true
+			}
+		]
+	},
+	{
+		"name": "Databases",
+		"skills": [
+			{
+				"name": "MySQL",
+				"percentage": 70,
+				"logo": "",
+				"isPersonal": false
+			},
+			{
+				"name": "MSSQL",
+				"percentage": 70,
+				"logo": "",
+				"isPersonal": true
+			},
+			{
+				"name": "MongoDB",
+				"percentage": 45,
+				"logo": "",
+				"isPersonal": true
+			}
+		]
+	},
+	{
+		"name": "Clouds",
+		"skills": [
+			{
+				"name": "AWS",
+				"percentage": 10,
+				"logo": "",
+				"isPersonal": false
+			}
+		]
+	}
+]

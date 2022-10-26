@@ -1,0 +1,34 @@
+[
+	{
+		"stage": "Post Graduation",
+		"course": "M.C.A.",
+		"institute": {
+			"name": "Sinhgad Institute of Business Administration and Research (SIBAR) - MCA",
+			"logo": "sibar.png",
+			"website": "http://www.sinhgad.edu/SinhgadManagementInstitutes/SIBAR-MCA/",
+			"location": "Pune, Maharashtra, India"
+		},
+		"type": "Full Time",
+		"timeline": {
+			"from": "2017-05",
+			"to": "2020-03"
+		},
+		"result": "Distinction"
+	},
+	{
+		"stage": "Graduation",
+		"course": "B.C.A.",
+		"institute": {
+			"name": "C. B. Patel Computer College (CBPCC)",
+			"logo": "cbpcc.png",
+			"website": "https://navnirmanmandal.in/BCA/indexDRB.php",
+			"location": "Surat, Gujarat, India"
+		},
+		"type": "Full Time",
+		"timeline": {
+			"from": "2013-04",
+			"to": "2016-03"
+		},
+		"result": "Distinction"
+	}
+]

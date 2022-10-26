@@ -1,0 +1,63 @@
+[
+	{
+		"position": "Software Engineer",
+		"company": {
+			"name": "Presidio",
+			"logo": "presidio.svg",
+			"website": "https://presidio.com/",
+			"hq": "New York, USA"
+		},
+		"location": "Remote",
+		"type": "Full Time",
+		"timeline": {
+			"from": "2021-02"
+		},
+		"highlights": [
+			"Working with a team on a healthcare product (EHE Health) consisting both legacy Java web app and Angular app.",
+			"Building features for modern app and enhancing legacy app.",
+			"Integrating both modern and older systems using technologies such as REST API, libraries and AWS services.",
+			"Partially Responsible in designing database architecture, writing back-end and front-end code for Promo and Referral codes - a major feature for appointments bookings.",
+			"Partially responsible for Upgrading Angular version 6 to 12 and all the required libraries.",
+			"Responsible for building Vue application from scratch, for custom SSO login to integrate and provide login functionality, to support multiple SSO clients.",
+			"Responsible for building and updating back-end Java APIs and integrating them with UI."
+		]
+	},
+	{
+		"position": "Software Engineer - Trainee",
+		"company": {
+			"name": "Coda Global",
+			"logo": "coda-global.png",
+			"website": "https://coda.global/",
+			"hq": "Chennai, India"
+		},
+		"location": "Remote",
+		"type": "Full Time",
+		"timeline": {
+			"from": "2020-11",
+			"to": "2021-02"
+		},
+		"highlights": [
+			"Had Training on various technical topics.",
+			"Started working with a real world project team maintaining a US based flour mills system (Ardent Mills) based on Angular 9.",
+			"Responsible for working on day to day UI tickets, solving bugs and providing support to develop new features."
+		]
+	},
+	{
+		"position": "Freelancing",
+		"company": {
+			"name": "AU Software Solutions",
+			"logo": "au-software-solutions.png",
+			"website": "https://ausoftwaresolutions.in/",
+			"hq": "Hyderabad, India"
+		},
+		"location": "Remote",
+		"type": "Occasional",
+		"timeline": {
+			"from": "2019-06"
+		},
+		"highlights": [
+			"Working on Javascript plugins for WordPress and it's integration.",
+			"Developed Wordpress plugins that perform Multi-API search and display dynamic results, News Scroll, Flipbook Plugin integration for PDF and EPUB (ebook) viewer integration."
+		]
+	}
+]
