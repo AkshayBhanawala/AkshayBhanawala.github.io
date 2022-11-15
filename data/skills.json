@@ -4,19 +4,19 @@
 		"skills": [
 			{
 				"name": "JavaScript",
-				"percentage": 80,
+				"percentage": 85,
 				"logo": "",
 				"isPersonal": false
 			},
 			{
 				"name": "TypeScript",
-				"percentage": 80,
+				"percentage": 85,
 				"logo": "",
 				"isPersonal": false
 			},
 			{
 				"name": "Java",
-				"percentage": 65,
+				"percentage": 75,
 				"logo": "",
 				"isPersonal": false
 			},
@@ -28,7 +28,7 @@
 			},
 			{
 				"name": "C#",
-				"percentage": 30,
+				"percentage": 35,
 				"logo": "",
 				"isPersonal": true
 			}
@@ -39,19 +39,19 @@
 		"skills": [
 			{
 				"name": "Angular",
-				"percentage": 80,
+				"percentage": 85,
 				"logo": "",
 				"isPersonal": false
 			},
 			{
 				"name": "Vue",
-				"percentage": 75,
+				"percentage": 80,
 				"logo": "",
 				"isPersonal": false
 			},
 			{
 				"name": "React",
-				"percentage": 45,
+				"percentage": 30,
 				"logo": "",
 				"isPersonal": true
 			}
@@ -62,19 +62,19 @@
 		"skills": [
 			{
 				"name": "MySQL",
-				"percentage": 70,
+				"percentage": 85,
 				"logo": "",
 				"isPersonal": false
 			},
 			{
 				"name": "MSSQL",
-				"percentage": 70,
+				"percentage": 85,
 				"logo": "",
 				"isPersonal": true
 			},
 			{
 				"name": "MongoDB",
-				"percentage": 45,
+				"percentage": 55,
 				"logo": "",
 				"isPersonal": true
 			}
@@ -85,7 +85,7 @@
 		"skills": [
 			{
 				"name": "AWS",
-				"percentage": 10,
+				"percentage": 5,
 				"logo": "",
 				"isPersonal": false
 			}

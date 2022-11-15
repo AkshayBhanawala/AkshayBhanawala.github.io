@@ -18,8 +18,11 @@
 			"Integrating both modern and older systems using technologies such as REST API, libraries and AWS services.",
 			"Partially Responsible in designing database architecture, writing back-end and front-end code for Promo and Referral codes - a major feature for appointments bookings.",
 			"Partially responsible for Upgrading Angular version 6 to 12 and all the required libraries.",
-			"Responsible for building Vue application from scratch, for custom SSO login to integrate and provide login functionality, to support multiple SSO clients.",
-			"Responsible for building and updating back-end Java APIs and integrating them with UI."
+			"Responsible for building Custom SSO Login VueJs application from scratch, to integrate & provide login functionality to clients & service providers.",
+			"Responsible for building Questionnaire VueJs application from scratch, to onboard users into the WellDoc Health-Care client/provider app.",
+			"Partially responsible for building backend APIs for above explained Questionnaire Application.",
+			"Responsible for building data ingestion app using NodeJs to fetch data from Partner APIs and store them in the Data store buckets as JSON files.",
+			"Responsible for converting above mentioned Questionnaire app to a Multi-Client generic app, enabling easy integration for multiple clients/providers."
 		]
 	},
 	{
