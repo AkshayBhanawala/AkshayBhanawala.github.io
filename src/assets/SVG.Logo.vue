@@ -1,0 +1,88 @@
+<template>
+	<svg
+		version="1.1"
+		viewBox="0 0 720 720"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+	>
+		<defs>
+			<linearGradient id="LG0">
+				<stop stop-color="#000000" offset="0" />
+				<stop stop-color="#000000" stop-opacity="0" offset="1" />
+			</linearGradient>
+			<linearGradient
+				id="LG1"
+				x1="420"
+				x2="420"
+				y1="670"
+				y2="600"
+				gradientUnits="userSpaceOnUse"
+				xlink:href="#LG0"
+			/>
+			<linearGradient
+				id="LG2"
+				x1="347.51"
+				x2="470.51"
+				y1="621"
+				y2="621"
+				gradientTransform="translate(-79.509, -596)"
+				gradientUnits="userSpaceOnUse"
+				xlink:href="#LG0"
+			/>
+			<linearGradient
+				id="LG3"
+				x1="419.48"
+				x2="419.48"
+				y1="596"
+				y2="669.52"
+				gradientTransform="translate(-189.48, -144)"
+				gradientUnits="userSpaceOnUse"
+				xlink:href="#LG0"
+			/>
+		</defs>
+		<g>
+			<path
+				class="a-bg text-color-fill"
+				fill="#dddddd"
+				stroke-width="0"
+				d="m115.08 426.98 136-402 226.4 669.52h-71.719l-84.949-266.37z"
+			/>
+			<path
+				class="main-ab text-color-stroke"
+				fill="none"
+				stroke="#dddddd"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="49.998"
+				style="paint-order: normal"
+				d="m24.999 694.29 226.09-669.3 226.24 669.3h-256.26l-2.0548-266.78-103.67-0.517 205.42 1.1022 84.893 266.19h71.672s115.42 8.0493 172.05-58.132c36.3-42.421 50.515-98.92 44.193-160.15-6.6774-64.664-41.068-100.81-94.602-135.38-36.264-23.421-147.68-34.304-147.68-34.304s87.894-10.047 126.96-70.332c27.086-41.8 24.415-110.52 0-150.71-24.415-40.189-49.746-60.284-146.49-60.284h-180.67v0"
+			/>
+		</g>
+		<g class="shadows" opacity=".7" stroke-width="0">
+			<path
+				fill="url(#LG1)"
+				style="mix-blend-mode: normal; paint-order: normal"
+				d="m348.07 596h122.41l24.93 73.527-123.9-0.23047z"
+			/>
+			<path
+				fill="url(#LG3)"
+				style="mix-blend-mode: normal; paint-order: normal"
+				d="m194.2 452.42h50.199l0.55078 72.312h-50.234z"
+			/>
+			<path
+				fill="url(#LG2)"
+				style="mix-blend-mode: normal; paint-order: normal"
+				d="m249.93 0 140.97 5e-7 0.10622 50h-105.07s-3.9258-12-6.1224-18.085c-3.6891-10.22-7.1732-17.613-11.803-23.477-6.2956-7.9743-18.074-8.4375-18.074-8.4375z"
+			/>
+		</g>
+	</svg>
+</template>
+
+<script setup lang="ts"></script>
+
+<style lang="scss" scoped>
+.circle-outline {
+	stroke-dasharray: 4000;
+	stroke-dashoffset: 4000;
+}
+</style>
