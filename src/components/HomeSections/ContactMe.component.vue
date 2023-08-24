@@ -30,7 +30,7 @@
 							/>
 						</svg>
 					</a>
-					<a class="link" target="_blank" title="Phone" :href="state.phone">
+					<a v-if="state.phone" class="link" target="_blank" title="Phone" :href="state.phone">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 							<path
 								class="fg"
@@ -102,6 +102,16 @@
 							/>
 						</svg>
 					</a>
+					<a class="link" target="_blank" title="Resume/CV" :href="state.resume">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+							<path
+								class="fg"
+								fill-rule="evenodd"
+								transform="scale(1.2) translate(-4.3 -4)"
+								d="M15.51 8H11.5C9.57 8 8 9.57 8 11.5v29c0 .93.37 1.82 1.03 2.47.66.66 1.55 1.03 2.47 1.03h25c.93 0 1.82-.37 2.47-1.03.66-.66 1.03-1.55 1.03-2.47v-29C40 9.57 38.43 8 36.5 8h-4.01c.33.94.51 1.95.51 3a9 9 0 0 1-18 0c0-1.05.18-2.06.51-3zM15 33c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm5 3c0 1.66 1.34 3 3 3h10c1.66 0 3-1.34 3-3s-1.34-3-3-3H23c-1.66 0-3 1.34-3 3zm-5-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1H23c-.55 0-1-.45-1-1zm-7-12c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm5 3c0 1.66 1.34 3 3 3h10c1.66 0 3-1.34 3-3s-1.34-3-3-3H23c-1.66 0-3 1.34-3 3zm-5-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1s-.45 1-1 1H23c-.55 0-1-.45-1-1zm-1.84-10.15a6.997 6.997 0 0 0 7.67.01 4.007 4.007 0 0 0-7.51-.46c-.04.1-.1.26-.16.45zm-1.59-1.43a6.004 6.004 0 0 1 2.51-2.67 4 4 0 0 1-1.1-2.75c0-2.21 1.79-4 4-4s4 1.79 4 4c0 1.06-.42 2.03-1.09 2.75 1.09.61 1.98 1.55 2.52 2.68A6.965 6.965 0 0 0 30.99 11c0-3.86-3.14-7-7-7s-7 3.14-7 7c0 1.68.59 3.22 1.58 4.42zM23.99 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"
+							/>
+						</svg>
+					</a>
 				</div>
 				<div class="scale-size-sitting-marcus">
 					<img class="" src="/img/WD2 Marcus [LegSizeFiller].webp" alt="Marcus" />
@@ -123,15 +133,17 @@ const myData = {
 	location: 'Surat, Gujarat',
 	github: 'AkshayBhanawala',
 	website: '//AkshayBhanawala.github.io',
+	resume: 'https://drive.google.com/file/d/16XCKgfiegIn5m9yuqau_mVm3kMynBnby/view',
 };
 
 const state = reactive({
 	linkedIn: `http://linkedin.com/in/${myData.linkedIn}`,
 	email: `mailto:${myData.email}`,
-	phone: `tel:${myData.phone}`,
+	phone: null, //`tel:${myData.phone}`,
 	location: `https://google.com/maps/place/${myData.location}`,
 	github: `https://github.com/${myData.github}?tab=repositories`,
 	website: `${myData.website}`,
+	resume: `${myData.resume}`,
 });
 
 const pathStops = computed((): string[] => {
@@ -214,6 +226,9 @@ $sitting-marcus-max-width: calc(350px * var(--size-scale));
 
 				a.link {
 					z-index: 2;
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					min-height: $link-size;
 					min-width: $link-size;
 					max-height: $link-size;

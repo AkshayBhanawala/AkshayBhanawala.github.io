@@ -122,8 +122,35 @@ body {
 	min-width: 320px;
 }
 
+#no-print {
+	width: 100vw;
+	height: 100vh;
+}
+
 #app {
-	text-align: center;
+}
+
+@media print {
+	@page {
+		size: auto;
+		margin: 0;
+	}
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#app {
+		display: none;
+	}
+	#no-print {
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		h1 {
+			text-align: center;
+		}
+	}
 }
 
 .main-content {
