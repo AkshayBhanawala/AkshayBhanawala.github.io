@@ -13,14 +13,14 @@
 			"from": "2021-02"
 		},
 		"highlights": [
-			"Working with a team on a healthcare product (EHE Health) consisting both legacy Java web app and Angular app.",
+			"Working with a team on a healthcare product consisting both legacy Java JSP app and Angular app.",
 			"Building features for modern app and enhancing legacy app.",
-			"Integrating both modern and older systems using technologies such as REST API, libraries and AWS services.",
-			"Partially Responsible in designing database architecture, writing back-end and front-end code for Promo and Referral codes - a major feature for appointments bookings.",
+			"Integrating both modern and legacy systems using technologies such as REST API, libraries and AWS services.",
+			"Partially Responsible in designing database architecture, writing back-end and front-end code for Promo and Referral codes - a major feature for appointment bookings.",
 			"Partially responsible for Upgrading Angular version 6 to 12 and all the required libraries.",
 			"Responsible for building Custom SSO Login VueJs application from scratch, to integrate & provide login functionality to clients & service providers.",
 			"Responsible for building Questionnaire VueJs application from scratch, to onboard users into the WellDoc Health-Care client/provider app.",
-			"Partially responsible for building backend APIs for above explained Questionnaire Application.",
+			"Partially responsible for building back-end APIs for above explained Questionnaire Application.",
 			"Responsible for building data ingestion app using NodeJs to fetch data from Partner APIs and store them in the Data store buckets as JSON files.",
 			"Responsible for converting above mentioned Questionnaire app to a Multi-Client generic app, enabling easy integration for multiple clients/providers."
 		]
@@ -41,8 +41,8 @@
 		},
 		"highlights": [
 			"Had Training on various technical topics.",
-			"Started working with a real world project team maintaining a US based flour mills system (Ardent Mills) based on Angular 9.",
-			"Responsible for working on day to day UI tickets, solving bugs and providing support to develop new features."
+			"Contributed in an ongoing project maintaining a US based flour mills system having technologies such as Angular and Dot Net.",
+			"Responsible for working on day to day UI tickets, improving and solving bugs, providing support to develop new features."
 		]
 	},
 	{
@@ -59,8 +59,9 @@
 			"from": "2019-06"
 		},
 		"highlights": [
-			"Working on Javascript plugins for WordPress and it's integration.",
-			"Developed Wordpress plugins that perform Multi-API search and display dynamic results, News Scroll, Flipbook Plugin integration for PDF and EPUB (ebook) viewer integration."
+			"Worked on various technologies, such as ASP, PHP, Java, etc.",
+			"Worked on Javascript plugins for WordPress and it's integration; plugins such as Multi-API search and display, News Scroll, Flipbook Plugin integration for PDF and EPUB (ebook) viewer integration.",
+			"Did analysis on WordPress plugin licensing application stack and IIIF image server along with it's UI."
 		]
 	}
 ]
