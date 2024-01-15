@@ -4,7 +4,8 @@
 			<span class="label">Disclaimer and Credits:</span>
 			<br />
 			<span class="value">
-				The images and logos used in this website are not owned by me.
+				The images and logos used in this website are not owned by me,
+				<br />except the [AB] logo.
 				<br />Thank you to the respective owners of the used images.
 			</span>
 		</div>
